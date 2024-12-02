@@ -1,50 +1,93 @@
+/* Center the entire content */
 body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #f4f4f4;
     color: #333;
-    margin: 0;
-    padding: 0;
 }
 
+/* Header styling */
 header {
+    width: 100%;
     background-color: #333;
     color: #fff;
-    padding: 10px 0;
-    text-align: center;
+    padding: 20px 0;
 }
 
+/* Center navigation links */
 nav ul {
-    background-color: #444;
     list-style: none;
     padding: 0;
-    text-align: center;
     margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #444;
 }
 
 nav ul li {
-    display: inline;
     margin: 0;
 }
 
 nav ul li a {
     text-decoration: none;
     color: #fff;
-    padding: 10px;
-    display: inline-block;
+    padding: 10px 15px;
 }
 
 nav ul li a:hover {
     background-color: #555;
 }
 
+/* Main content styling */
 main {
+    width: 100%;
+    max-width: 800px;
     padding: 20px;
 }
 
-footer {
+/* Center the videos */
+main video {
+    display: block;
+    margin: 20px auto;
+}
+
+/* Pipeline images container */
+.pipeline-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* Individual pipeline step */
+.pipeline-step {
     text-align: center;
-    padding: 10px;
+}
+
+/* Ensure images are centered */
+.pipeline-step img {
+    max-width: 100%;
+    width: 400px;
+    height: auto;
+    border: 2px solid #333; /* Optional border */
+}
+
+/* Footer styling */
+footer {
+    width: 100%;
     background-color: #333;
     color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
 }
