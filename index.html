@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <h1>Welcome to Aamna's Project Demo</h1>
+        <h1>Welcome to My Project Demo</h1>
     </header>
     <nav>
         <ul>
@@ -20,13 +20,13 @@
         <!-- Visual Tracking Section -->
         <section id="visual-tracking">
             <h2>Visual Tracking of a 2D Discrete Video Stream</h2>
-            <p>This video shows the original Video</p>
+            <p>This video shows the original video:</p>
             <video controls width="600">
                 <source src="video_orig.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
 
-            <p>This video presents the synthesized DVS Video</p>
+            <p>This video presents the synthesized DVS video:</p>
             <video controls width="600">
                 <source src="dvs-video.mp4" type="video/mp4">
                 Your browser does not support the video tag.
@@ -36,13 +36,13 @@
         <!-- Motion Estimation Section -->
         <section id="motion-estimation">
             <h2>Motion Estimation and Velocity Tracking of a Flexible Link</h2>
-            <p>This video presents the output of a DVS camera record of the soft link.</p>
+            <p>This video presents the output of a DVS camera record of the soft link:</p>
             <video controls width="600">
                 <source src="long_2.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
 
-            <p>This video presents the visualization of the link motion and velocity estimation.</p>
+            <p>This video presents the visualization of the link motion and velocity estimation:</p>
             <video controls width="600">
                 <source src="visualization.mp4" type="video/mp4">
                 Your browser does not support the video tag.
@@ -51,18 +51,30 @@
             <!-- Pipeline Images -->
             <h3>Pipeline</h3>
             <div class="pipeline-images">
-                <p>Adaptive Threshold</p>
-                <img src="Adaptive-Threshold.png" alt="Pipeline Step 1" width="600">
-                <p>Gaussian Blur</p>
-                <img src="Gaussian-Blur.png" alt="Pipeline Step 2" width="600">
-                <p>Morphological Operations</p>
-                <img src="morphological-operations.png" alt="Pipeline Step 3" width="600">
-                <p>Canny edge detection</p>
-                <img src="Canny-edge-detection.png" alt="Pipeline Step 4" width="600">
-                <p>Alpha Shape</p>
-                <img src="Alpha.png" alt="Pipeline Step 5" width="600">
-                <p>Optical Flow</p>
-                <img src="optical.png" alt="Pipeline Step 6" width="600">
+                <div class="pipeline-step">
+                    <p>Adaptive Threshold</p>
+                    <img src="images/adaptive-threshold.png" alt="Adaptive Threshold Step" width="400">
+                </div>
+                <div class="pipeline-step">
+                    <p>Gaussian Blur</p>
+                    <img src="images/gaussian-blur.png" alt="Gaussian Blur Step" width="400">
+                </div>
+                <div class="pipeline-step">
+                    <p>Morphological Operations</p>
+                    <img src="images/morphological-operations.png" alt="Morphological Operations Step" width="400">
+                </div>
+                <div class="pipeline-step">
+                    <p>Canny Edge Detection</p>
+                    <img src="images/canny-edge-detection.png" alt="Canny Edge Detection Step" width="400">
+                </div>
+                <div class="pipeline-step">
+                    <p>Alpha Shape</p>
+                    <img src="images/alpha.png" alt="Alpha Shape Step" width="400">
+                </div>
+                <div class="pipeline-step">
+                    <p>Optical Flow</p>
+                    <img src="images/optical.png" alt="Optical Flow Step" width="400">
+                </div>
             </div>
         </section>
     </main>
